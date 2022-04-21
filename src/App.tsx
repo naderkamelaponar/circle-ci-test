@@ -6,11 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
       <p>
           بسم الله الرحمن الرحيم
         </p>
-
         <img src={logo} className="App-logo" alt="logo" />
         
         <a
@@ -19,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Allah
+          Learn React
         </a>
       </header>
     </div>
