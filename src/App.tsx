@@ -9,8 +9,9 @@ function App() {
       <p>
           بسم الله الرحمن الرحيم
         </p>
+        <p> There is no god but Allah & Muhamad is the Messenger of Allah</p>
         <img src={logo} className="App-logo" alt="logo" />
-        
+       
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -19,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <p> Fully Automated Circle </p>
+
       </header>
     </div>
   );
