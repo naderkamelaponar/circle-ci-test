@@ -1,0 +1,12 @@
+# بسم الله الرحمن الرحيم
+version :2.1
+jobs:
+  deploy:
+    docker:
+      - image : cimg/node:16.10
+    steps:
+      - checkout
+
+      - restore_cache: 
+        keys:
+         
