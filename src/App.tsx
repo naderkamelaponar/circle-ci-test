@@ -9,16 +9,15 @@ function App() {
       <p>
           بسم الله الرحمن الرحيم
         </p>
-        <p> There is no god but Allah & Muhamad is the Messenger of Allah</p>
+        
         <img src={logo} className="App-logo" alt="logo" />
-       
+        <p> There is no god but Allah & Muhamad is the Messenger of Allah</p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-         learn react
         </a>
         <p> Fully Automated Circle </p>
 
