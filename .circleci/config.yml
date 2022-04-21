@@ -1,24 +1,21 @@
-# بسم الله الرحمن الرحيم
-version :2.1
-jobs :
-  deploy :
+!# بسم الله الرحمن الرحيم
+version: 2.1
+jobs : 
+  deploy:                                                                                                                                                                                                                                                   
     docker :
       - image : cimg/node:16.10
     steps :
-      - checkout
-
-      - restore_cache : 
-        keys :
-         - v1-dependencies-{{checksum "package.json"}}
-         - v1-dependecies-
-
-      - run :
-          name : Install dependecies
-          command : npm install
-      - save_cache :
-          pathes :
-            -node_modules
-          key : v1-dependcies-{{checksum "package.json"}}
       - run :
           name: Run tests
           command : npm run test
+      - run : 
+          name : Run Build
+          command : npm run build
+
+      - run : 
+          name : Run Deploy
+          command : npm run deploy
+workflows : 
+  build_deploy :
+    jobs :
+      - 'deploy'
