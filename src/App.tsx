@@ -23,7 +23,7 @@ function App() {
 
       </header>
       <footer>
-        <a href= "https://github.com/naderkamelaponar/circle-ci-test">Repo</a>
+        <a href= "https://github.com/naderkamelaponar/circle-ci-test" target="_blank">Repo</a>
         <p>Nader Kamel</p>
       </footer>
     </div>
