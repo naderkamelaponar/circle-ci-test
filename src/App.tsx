@@ -22,6 +22,10 @@ function App() {
         <p> Fully Automated Circle </p>
 
       </header>
+      <footer>
+        <a href= "https://github.com/naderkamelaponar/circle-ci-test">Repo</a>
+        <p>Nader Kamel</p>
+      </footer>
     </div>
   );
 }
