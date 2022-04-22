@@ -13,9 +13,9 @@ jobs:
           keys:
             # Find a cache corresponding to this specific package.json checksum
             # when this file is changed, this key will fail
-            #- v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-{{ checksum "package.json" }}
             # Find the most recently generated cache used from any branch
-            #- v1-dependencies-
+            - v1-dependencies-
 
       - run: 
           name: Install Dependencies
@@ -42,4 +42,3 @@ jobs:
 workflows:
   build_deploy:
     jobs:
-      - deploy
