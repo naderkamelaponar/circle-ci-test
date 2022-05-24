@@ -25,6 +25,7 @@ function App() {
       <footer>
         <a href= "https://github.com/naderkamelaponar/circle-ci-test" target="_blank"  rel="noopener noreferrer">Repo</a>
         <p>Nader Kamel</p>
+        <p> محمد عطية</p>
       </footer>
     </div>
   );
